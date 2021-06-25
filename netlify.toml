@@ -1,0 +1,10 @@
+[build]
+  publish = "build/"
+
+[[redirects]]
+  from = "api/*"
+  to = ".netlify/functions/:splat"
+  status = 308
+
+[functions]
+  directory = "api/"

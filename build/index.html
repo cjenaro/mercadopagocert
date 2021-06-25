@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Mercado Pago Store</title>
+</head>
+<body>
+    <header>
+        <a href="/"> Home </a>
+        <a href="#us">Nosotros</a>
+        <a href="#store">Tienda</a>
+        <form id="search" action="/api/search">
+            <input name="query" type="search" placeholder="Buscar..." />
+        </form>
+    </header>
+    
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h1>Comprá</h1>
+                <p>Felicidad</p>
+                <a href="#store">Comprar</a>
+            </div>
+        </section>
+        <section id="store">
+            <div class="container"></div>
+        </section>
+        <section id="us">
+            <div class="container">
+                <h2>Nosotros</h2>
+                <p>
+                    Vendemos zapatillas lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Expedita tenetur deleniti excepturi a aliquam
+                    suscipit nam, voluptatibus quaerat sint rerum dolore aut veniam
+                    necessitatibus nisi fuga earum corrupti molestias! Dolorem? Dolor ex
+                    at aspernatur, molestias, eos vero laudantium similique possimus,
+                    dolore nemo ullam quos velit dolores labore laborum error id facilis
+                    veritatis ab pariatur aliquid. Assumenda repellat magnam alias
+                    voluptatem.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Gracias por visitar nuestra tienda falsa de zapatillas.</p>
+    </footer>
+    <script src="https://sdk.mercadopago.com/js/v2"></script>
+    <script src="https://www.mercadopago.com/v2/security.js" view="home"></script>
+    <script src="db.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
